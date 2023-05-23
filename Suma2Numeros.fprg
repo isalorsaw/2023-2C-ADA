@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ILSW"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-22 08:47:48 p. m."/>
+        <attribute name="created" value="SUxTVztJTFNXLVBDOzIwMjMtMDUtMjI7MDg6MjA6NDggcC4gbS47MjMwMA=="/>
+        <attribute name="edited" value="SUxTVztJTFNXLVBDOzIwMjMtMDUtMjI7MDg6NDc6NDggcC4gbS47MTsyNDE3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, suma" type="Integer" array="False" size=""/>
+            <assign variable="n1" expression="0"/>
+            <assign variable="n2" expression="0"/>
+            <assign variable="suma" expression="0"/>
+            <output expression="&quot; Vamos a pedirle dos numeros y vamos a mostrarle la suma de ellos &quot;" newline="True"/>
+            <output expression="&quot; Ingrese el Primer Numero &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot; Ingrese el 2do Numero &quot;" newline="True"/>
+            <input variable="n2"/>
+            <assign variable="suma" expression="n1+n2"/>
+            <output expression="&quot; La Suma de &quot;&amp; n1 &amp; &quot; y &quot; &amp; n2 &amp; &quot; = &quot; &amp; suma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
