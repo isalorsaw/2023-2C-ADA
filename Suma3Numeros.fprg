@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ILSW"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-23 08:19:13 p. m."/>
+        <attribute name="created" value="SUxTVztJTFNXLVBDOzIwMjMtMDUtMjI7MDg6MjA6NDggcC4gbS47MjMwMA=="/>
+        <attribute name="edited" value="SUxTVztJTFNXLVBDOzIwMjMtMDUtMjM7MDg6MTk6MTMgcC4gbS47MjsyNDEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, suma" type="Integer" array="False" size=""/>
+            <declare name="n3" type="Integer" array="False" size=""/>
+            <assign variable="n1" expression="0"/>
+            <assign variable="n2" expression="0"/>
+            <assign variable="n3" expression="0"/>
+            <assign variable="suma" expression="0"/>
+            <output expression="&quot; Vamos a pedirle tres numeros y vamos a mostrarle la suma de ellos &quot;" newline="True"/>
+            <output expression="&quot; Ingrese el Primer Numero &quot;" newline="True"/>
+            <input variable="n1"/>
+            <output expression="&quot; Ingrese el 2do Numero &quot;" newline="True"/>
+            <input variable="n2"/>
+            <output expression="&quot; Ingrese el Tercer Numero&quot;" newline="True"/>
+            <input variable="n3"/>
+            <assign variable="suma" expression="n1+n2+n3"/>
+            <output expression="&quot; La Suma de &quot;&amp; n1 &amp; &quot; y &quot; &amp; n2 &amp; &quot; y &quot;&amp;n3&amp;&quot; = &quot; &amp; suma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
