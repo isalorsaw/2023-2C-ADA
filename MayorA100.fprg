@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ILSW"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-05-24 08:29:05 p. m."/>
+        <attribute name="created" value="SUxTVztJTFNXLVBDOzIwMjMtMDUtMjQ7MDg6MTA6NDAgcC4gbS47MjI5Mw=="/>
+        <attribute name="edited" value="SUxTVztJTFNXLVBDOzIwMjMtMDUtMjQ7MDg6Mjk6MDUgcC4gbS47MTsyNDEy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="0"/>
+            <output expression="&quot; Voy a pedir un numero y le dire si es mayor a 100&quot;" newline="True"/>
+            <output expression="&quot; Favor Ingrese un Numero&quot;" newline="True"/>
+            <input variable="numero"/>
+            <if expression="numero&gt;100">
+                <then>
+                    <output expression="&quot; El numero es Mayor a 100 &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot; El Numero NO ES Mayor a 100&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
