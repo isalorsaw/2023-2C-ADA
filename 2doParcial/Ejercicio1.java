@@ -16,7 +16,20 @@ public class Ejercicio1
         int suma=0;
         //Asignaciones o Inicializaciones
         
+        //Entradas
         String entrada=JOptionPane.showInputDialog("Ingrese el Primer Numero");
-        //Llegamos aqui por hoy
+        n1=Integer.parseInt(entrada);
+        
+        entrada=JOptionPane.showInputDialog("Ingrese el Segundo Numero");
+        n2=Integer.parseInt(entrada);
+        
+        //Proceso
+        suma=n1+n2;
+        
+        //Salida
+        JOptionPane.showMessageDialog(null,"La Suma es: "+suma);
+        
+        
+        
     }//Fin del Main
 }//Fin de Class
